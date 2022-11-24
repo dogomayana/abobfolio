@@ -43,6 +43,7 @@ nav{
 .brief h1{
     font-size: 3rem;
     font-family: 'Cormorant SC', serif;
+    margin: 10px 0px;
 
 }
 .brief h3{
@@ -64,14 +65,12 @@ nav{
     font-family: 'Noticia Text', serif;
     /* font-family: 'Rozha One', serif; */
     /* font-family: 'Lobster', cursive; */
-
-
-
   }
 
 .stack-image{
     display: flex;
     width: 100%;
+    margin: 10px 0px;
 }
 .stack-image img{
     width: 50px;
@@ -277,11 +276,12 @@ text-align: center;
     }
     main{
         padding: 10px;
+        margin-top: 1.3rem;
         /* border: 1px solid burlywood; */
         width:100%
     }
     main p{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         text-align: justify;
     }
     .mfst_line::first-line {
@@ -302,7 +302,7 @@ text-align: center;
     }
     .card >p{
         padding: 10px;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         color: black;
         text-align: justify;
         line-height: 1.8rem;
