@@ -57,6 +57,17 @@ nav{
     padding: 15px 0px;
     font-family: 'Noticia Text', serif;
 }
+.fst_line::first-line {
+    color: black;
+    font-weight: 600;
+    word-spacing: 12px;
+    font-family: 'Noticia Text', serif;
+    /* font-family: 'Rozha One', serif; */
+    /* font-family: 'Lobster', cursive; */
+
+
+
+  }
 
 .stack-image{
     display: flex;
@@ -273,6 +284,14 @@ text-align: center;
         font-size: 1.2rem;
         text-align: justify;
     }
+    .mfst_line::first-line {
+        color: black;
+        font-weight: 600;
+        word-spacing: 12px;
+        font-family: 'Noticia Text', serif;
+        /* font-family: 'Rozha One', serif; */
+        /* font-family: 'Lobster', cursive; */
+      }
     .card{
         width: 100%;
         padding: 4px;
