@@ -12,18 +12,36 @@ body{
 p, h1,h2,h3,h4,h5,h6{
     color: black;
 }
-
+a{
+    text-decoration-line: none;
+    font-size: 1rem;
+    color: blue;
+    cursor: pointer;
+}
+a:visited{
+    text-decoration-line: none;
+    font-size: 1rem;
+    color: red;
+    cursor: pointer;
+}
 nav{
     text-align: center;
-    font-size: 32px;
+    font-size: 1.8rem;
     padding: 24px 0px;
-    /* font-family: 'Lobster', cursive; */
-    /* font-family: 'Noticia Text', serif; */
     font-family: 'Cormorant SC', serif;
-    /* font-family: 'Rozha One', serif; */
     color: black;
     border-bottom: 1px solid black;
     width: 100%;
+}
+.dDate{
+    margin-top: 40px;
+    display: flex;
+    padding:0 32px;
+    justify-content: space-between;
+}
+.dDate h1{
+    font-size: 1rem;
+    color: black;
 }
 .hero{
     width: 90%;
@@ -221,11 +239,31 @@ text-align: center;
         padding: 8px;
     }
     nav{
-        /* padding: 8px 16px; */
+    text-align:center;
+
+        padding: 8px 4px;
         color: black;
     font-family: 'Cormorant SC', serif;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
         width: 100%;
+    }
+    a{
+        text-decoration-line: none;
+        font-size: 1rem;
+        color: blue;
+        cursor: pointer;
+    }
+    .dDate{
+        margin-top: 30px;
+        display: flex;
+        padding: 0 8px;
+        justify-content: space-between;
+    }
+    .dDate h1{
+        /* font-size: 0.75rem; */
+    font-size: 1rem;
+
+        color: black;
     }
     .link{
         display: none;
